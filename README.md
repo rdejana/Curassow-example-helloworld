@@ -13,12 +13,8 @@ Listening on 0.0.0.0:8000
 
 ### Deployment
 
-This example can be deployed to Heroku using the
-[heroku-buildpack-swift](https://github.com/kylef/heroku-buildpack-swift).
-
-Click the button below to automatically set up this example to run on your own Heroku account.
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/kylef/Curassow-example-helloworld)
+This example can be deployed with my fork of the swift buidpack:
+cf push <appName> -b  https://github.com/rdejana/swift-buildpack.git
 
 ### Options
 
